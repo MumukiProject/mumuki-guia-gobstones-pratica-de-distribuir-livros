@@ -1,0 +1,10 @@
+---
+expectations:
+- binding: "*"
+  inspection: DeclaresFunction:corLivros
+- binding: "*"
+  inspection: DeclaresComputationWithArity0:corLivros
+- binding: quantidadeLivros
+  inspection: Uses:corLivros
+- binding: "*"
+  inspection: DeclaresComputationWithArity0:quantidadeLivros
