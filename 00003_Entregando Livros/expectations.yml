@@ -1,0 +1,10 @@
+---
+expectations:
+- binding: "*"
+  inspection: DeclaresComputationWithArity1:EntregarLivros
+- binding: EntregarLivros
+  inspection: Uses:ColocarN
+- binding: EntregarLivros
+  inspection: Not:UsesRepeat
+- binding: EntregarLivros
+  inspection: Uses:corLivros
