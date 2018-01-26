@@ -1,0 +1,40 @@
+check_head_position: true
+
+subject: TransmitirSituacao
+
+examples:
+ - title: Se faltam livros, marca com pedras vermelhas
+   initial_board: |
+     GBB/1.0
+     size 1 1 
+     cell 0 0 Azul 25 Negro 10
+     head 0 0
+   final_board: |
+     GBB/1.0
+     size 1 1 
+     cell 0 0 Azul 25 Negro 10 Rojo 15
+     head 0 0
+ 
+ - title: Se sobram livros, marca com pedras verdes
+   initial_board: |
+     GBB/1.0
+     size 1 1 
+     cell 0 0 Azul 20 Negro 26
+     head 0 0
+   final_board: |
+     GBB/1.0
+     size 1 1 
+     cell 0 0 Azul 20 Negro 26 Verde 6
+     head 0 0
+     
+ - title: Se houver a mesma quantidade de livros que estudantes, não marca nada
+   initial_board: |
+     GBB/1.0
+     size 1 1 
+     cell 0 0 Azul 20 Negro 20
+     head 0 0
+   final_board: |
+     GBB/1.0
+     size 1 1 
+     cell 0 0 Azul 20 Negro 20
+     head 0 0

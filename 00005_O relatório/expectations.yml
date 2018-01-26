@@ -1,0 +1,20 @@
+---
+expectations:
+- binding: "*"
+  inspection: DeclaresComputationWithArity0:TransmitirSituacao
+- binding: TransmitirSituacao
+  inspection: Uses:quantidadeEstudantes
+- binding: TransmitirSituacao
+  inspection: Uses:quantidadeLivros
+- binding: TransmitirSituacao
+  inspection: Not:UsesRepeat
+- binding: TransmitirSituacao
+  inspection: Uses:ColocarN
+- binding: TransmitirSituacao
+  inspection: Uses:corSobrantes
+- binding: TransmitirSituacao
+  inspection: Uses:corFaltantes
+- binding: "*"
+  inspection: DeclaresFunction:corSobrantes
+- binding: "*"
+  inspection: DeclaresFunction:corFaltantes

@@ -1,0 +1,19 @@
+function corLivros() {
+  return (Preto)
+}
+
+function quantidadeLivros() {
+  return (nroPedras(corLivros()))
+}
+
+function corEstudantes() {
+  return (Azul)
+}
+
+function quantidadeEstudantes() {
+  return (nroPedras(corEstudantes()))
+}
+
+procedure EntregarLivros(quantidade){
+  ColocarN(quantidade, corLivros)
+}
