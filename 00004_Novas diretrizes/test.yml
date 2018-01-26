@@ -1,0 +1,43 @@
+check_head_position: true
+
+subject: EntregaroQueDer 
+
+examples:
+ - title: EntregaroQueDer (43) - entrega todos
+   arguments:
+   - 43
+   initial_board: |
+     GBB/1.0
+     size 2 2 
+     head 0 0
+   final_board: |
+     GBB/1.0
+     size 2 2
+     cell 0 0 Negro 43
+     head 0 0
+ 
+ - title: EntregaroQueDer (50) - entrega todos
+   arguments:
+   - 50
+   initial_board: |
+     GBB/1.0
+     size 2 2 
+     head 0 0
+   final_board: |
+     GBB/1.0
+     size 2 2
+     cell 0 0 Negro 50
+     head 0 0
+     
+ - title: EntregaroQueDer (56) - entrega apenas cinquenta
+   arguments:
+   - 56
+   initial_board: |
+     GBB/1.0
+     size 2 2 
+     head 0 0
+   final_board: |
+     GBB/1.0
+     size 2 2
+     cell 0 0 Negro 50     
+     head 0 0     

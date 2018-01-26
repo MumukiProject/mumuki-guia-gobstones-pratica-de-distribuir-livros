@@ -1,0 +1,12 @@
+---
+expectations:
+- binding: "*"
+  inspection: DeclaresComputationWithArity1:EntregaroQueDer
+- binding: EntregaroQueDer
+  inspection: Uses:EntregarLivros
+- binding: EntregaroQueDer
+  inspection: UsesIf
+- binding: EntregaroQueDer
+  inspection: Not:UsesRepeat
+- binding: EntregaroQueDer
+  inspection: Not:Uses:ColocarN
