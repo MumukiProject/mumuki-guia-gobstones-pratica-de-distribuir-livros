@@ -1,0 +1,27 @@
+check_head_position: true
+
+subject: haEscolaPublica
+
+examples:
+ - title: Quando não há nada
+   initial_board: |
+     GBB/1.0
+     size 1 1 
+     head 0 0
+   return: 'False'
+   
+ - title: Quando há um particular
+   initial_board: |
+     GBB/1.0
+     size 1 1 
+     cell 0 0 Negro 40
+     head 0 0
+   return: 'False'
+    
+ - title: Quando há una escola pública
+   initial_board: |
+     GBB/1.0
+     size 1 1 
+     cell 0 0 Azul 30 Negro 10
+     head 0 0
+   return: 'True'

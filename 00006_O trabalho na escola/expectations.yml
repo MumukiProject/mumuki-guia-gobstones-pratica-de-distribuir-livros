@@ -1,0 +1,10 @@
+---
+expectations:
+- binding: FazerTrabalhoNaEscola
+  inspection: Uses:EntregaroQueDer
+- binding: FazerTrabalhoNaEscola
+  inspection: Uses:TransmitirSituacao
+- binding: FazerTrabalhoNaEscola
+  inspection: Uses:quantidadeEstudantes
+- binding: FazerTrabalhoNaEscola
+  inspection: Uses:quantidadeLivros

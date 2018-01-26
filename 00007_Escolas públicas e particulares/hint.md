@@ -1,0 +1,1 @@
+O importante aqui é que as escolas particulares não informam a quantidade de estudantes que possuem e portanto **não haverá pedras azuis**.

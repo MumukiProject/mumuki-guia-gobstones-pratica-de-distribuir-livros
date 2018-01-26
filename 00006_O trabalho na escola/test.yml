@@ -1,0 +1,40 @@
+check_head_position: true
+
+subject: FazerTrabalhoNaEscola
+
+examples:
+ - title: Se faltam mais de 50 livros, entrega o que pode e marca quantos faltam
+   initial_board: |
+     GBB/1.0
+     size 1 1 
+     cell 0 0 Azul 250 Negro 100
+     head 0 0
+   final_board: |
+     GBB/1.0
+     size 1 1 
+     cell 0 0 Azul 250 Negro 150 Rojo 100
+     head 0 0
+ 
+ - title: Se sobran livros, não entrega nada e marca quantos sobraram
+   initial_board: |
+     GBB/1.0
+     size 1 1 
+     cell 0 0 Azul 200 Negro 260
+     head 0 0
+   final_board: |
+     GBB/1.0
+     size 1 1 
+     cell 0 0 Azul 200 Negro 260 Verde 60
+     head 0 0
+     
+ - title: Se faltam menos de 50 livros, entrega-os e não marca nada
+   initial_board: |
+     GBB/1.0
+     size 1 1 
+     cell 0 0 Azul 230 Negro 200
+     head 0 0
+   final_board: |
+     GBB/1.0
+     size 1 1 
+     cell 0 0 Azul 230 Negro 230
+     head 0 0

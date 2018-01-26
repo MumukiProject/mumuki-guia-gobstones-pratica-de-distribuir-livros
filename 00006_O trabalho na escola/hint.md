@@ -1,0 +1,1 @@
+Embora possa parecer que é um procedimento complexo, a solução não deveria ter mais de 4 linhas, porque nos pontos anteriores já resolvemos a maioria das subtarefas que você necessita usar aqui.
