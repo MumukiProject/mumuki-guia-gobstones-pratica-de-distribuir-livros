@@ -1,0 +1,10 @@
+---
+expectations:
+- binding: "*"
+  inspection: DeclaresComputationWithArity1:TrabalharNaRua
+- binding: TrabalharNaRua
+  inspection: UsesRepeat
+- binding: TrabalharNaRua
+  inspection: Uses:FazerTrabalhoNaEscola
+- binding: TrabalharNaRua
+  inspection: Uses:haEscolaPublica
