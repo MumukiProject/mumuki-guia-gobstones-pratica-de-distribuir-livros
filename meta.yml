@@ -3,7 +3,8 @@ name: Prática de Distribuir Livros
 locale: pt
 type: practice
 beta: false
-teacher_info: 
+teacher_info: ''
 language: gobstones
 id_format: "%05d"
-order: []
+order:
+- 1

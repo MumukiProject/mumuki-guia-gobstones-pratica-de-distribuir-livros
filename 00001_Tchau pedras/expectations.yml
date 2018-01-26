@@ -1,0 +1,10 @@
+---
+expectations:
+- binding: "*"
+  inspection: DeclaresFunction:corEstudantes
+- binding: quantidadeEstudantes
+  inspection: Uses:corEstudantes
+- binding: "*"
+  inspection: DeclaresComputationWithArity0:quantidadeEstudantes
+- binding: "*"
+  inspection: DeclaresComputationWithArity0:corEstudantes
