@@ -8,14 +8,14 @@ examples:
    initial_board: |
      GBB/1.0
      size 6 1
-     cell 1 0 Azul 25 Negro 10
-     cell 3 0 Negro 30
+     cell 1 0 Azul 250 Negro 100
+     cell 3 0 Negro 300
      head 0 0
    final_board: |
      GBB/1.0
      size 6 1
-     cell 1 0 Azul 25 Negro 15 Rojo 10
-     cell 3 0 Negro 30
+     cell 1 0 Azul 250 Negro 150 Rojo 100
+     cell 3 0 Negro 300
      head 0 0
      
  - arguments:
@@ -23,14 +23,14 @@ examples:
    initial_board: |
      GBB/1.0
      size 6 1 
-     cell 2 0 Negro 30
-     cell 3 0 Azul 30 Negro 27
-     cell 5 0 Azul 70 Negro 80
+     cell 2 0 Negro 300
+     cell 3 0 Azul 300 Negro 270
+     cell 5 0 Azul 700 Negro 800
      head 0 0
    final_board: |
      GBB/1.0
      size 6 1 
-     cell 2 0 Negro 30
-     cell 3 0 Azul 30 Negro 30
-     cell 5 0 Azul 70 Negro 80 Verde 10
+     cell 2 0 Negro 300
+     cell 3 0 Azul 300 Negro 300
+     cell 5 0 Azul 700 Negro 800 Verde 100
      head 0 0     
