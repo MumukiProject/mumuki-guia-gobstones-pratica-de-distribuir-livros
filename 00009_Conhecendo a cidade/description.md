@@ -31,4 +31,4 @@ Cada cidade tem uma quantidade de ruas diferente, e cada rua tem seu próprio co
 * as pedras vermelhas da origem indicam **quantas ruas tem**  na nossa cidade;
 * as pedras verdes de cada fila indicam **quão comprida é a rua**.
 
-> Seu trabalho é escrever o procedimento `PercorrerCidade()`, que realize um percurso por todas as ruas da cidade, fazendo o trabalho necessário.
+> Seu trabalho é escrever o procedimento `PercorrerCidade()`, que realize um **percurso** por todas as ruas da cidade, fazendo o trabalho necessário.
