@@ -71,6 +71,6 @@ procedure TrabalharNaRua(comprimento){
   VolverARota(comprimento)
 }
 
-procedure VolverArota(comprimento) {
+procedure VolverARota(comprimento) {
   MoverN(comprimento, Oeste)
 }
