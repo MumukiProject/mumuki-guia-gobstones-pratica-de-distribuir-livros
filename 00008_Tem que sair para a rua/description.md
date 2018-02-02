@@ -9,3 +9,5 @@ Assim é como se veria uma rua com 6 de comprimento, com uma escola pública de 
     cell 3 0 Negro 30
     head 0 0
 </gs-board>
+
+> Escreva `TrabalharNaRua(comprimento)` que faça o trabalho que corresponda em uma rua da longitude recebida por parâmetro. A garra sempre começará no início da rua e deve terminar no mesmo lugar onde começou.
