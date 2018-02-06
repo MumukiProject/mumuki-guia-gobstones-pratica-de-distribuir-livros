@@ -1,6 +1,6 @@
 check_head_position: true
 
-subject: RecorrerCiudad
+subject: PercorrerCidade
 
 examples:
  - initial_board: |
