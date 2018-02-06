@@ -1,0 +1,7 @@
+procedure ColocarN(n, cor) {
+  repeat(n) { Colocar(cor) }
+}
+
+procedure MoverN(n, dir) {
+  repeat(n) { Mover(dir) }
+}
