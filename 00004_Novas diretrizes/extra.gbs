@@ -15,5 +15,5 @@ function quantidadeEstudantes() {
 }
 
 procedure EntregarLivros(quantidade){
-  ColocarN(quantidade, corLivros)
+  ColocarN(quantidade, corLivros())
 }
