@@ -59,7 +59,7 @@ examples:
      cell 0 3 Verde 3
      cell 2 3 Azul 200
      cell 3 3 Azul 160 Negro 70
-     cell 0 1 Verde 50
+     cell 0 1 Verde 5
      cell 3 1 Negro 80
      cell 4 1 Azul 130 Negro 140
      cell 5 1 Azul 50 Negro 110
